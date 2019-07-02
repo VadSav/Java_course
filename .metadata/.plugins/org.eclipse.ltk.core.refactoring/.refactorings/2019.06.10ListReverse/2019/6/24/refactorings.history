@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;reverse&apos; from expression &apos;reverse(list)&apos;&#x0D;&#x0A;- Original project: &apos;2019.06.10ListReverse&apos;&#x0D;&#x0A;- Variable name: &apos;reverse&apos;&#x0D;&#x0A;- Destination method: &apos;MainReverse.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;reverse(list)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;reverse&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;{MainReverse.java" name="reverse" replace="true" selection="344 14" stamp="1560446432955" varType="false" version="1.0"/>
+</session>

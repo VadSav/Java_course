@@ -1,0 +1,31 @@
+
+public class  {
+
+	
+
+
+private int Factorial(int n) {
+    int result = 1;
+
+    if (n == 0) {
+        System.out.print(" = ");
+        return result;
+    }
+    if (n == 1) {
+        System.out.print(" * 1 = ");
+        return result;
+    }
+
+    System.out.print(n);
+    if (n != 2) {
+        System.out.print(" * ");
+    }
+
+    result = n * Factorial(n-1);
+    return result;
+}
+
+
+System.out.println((15) + "!");
+
+}

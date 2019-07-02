@@ -1,0 +1,24 @@
+import java.util.function.Consumer;
+
+public class Demo {
+
+	public static void main(String[] args) {
+	System.out.println("Hello World");
+	int a =2+3;
+	String s= "Hello World";
+	
+	Employee e= new Employee ("Ivan",2500);
+	
+	Consumer<String>printable = System.out::println;
+	printable.accept("Hello World");
+	
+	Consumer<String>printable2 = str ->System.out.println(str);
+	printable2.accept("Hello Word");
+	
+	PrintableI pi=System.out::println;
+	pi.print("Hello World Custom");
+	
+
+	}
+
+}

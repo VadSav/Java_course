@@ -1,0 +1,23 @@
+
+public class Word1 {
+	
+	public int size;
+
+	public Word1(int size) {
+		super();
+		this.size = size;
+	}
+
+	public int getSize() {
+		return size;
+	}
+
+	@Override
+	public String toString() {
+		return "Word1 [size=" + size + "]";
+	}
+	
+	
+	
+
+}

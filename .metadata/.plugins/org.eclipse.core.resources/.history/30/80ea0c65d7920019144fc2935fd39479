@@ -1,0 +1,40 @@
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class Demo {
+	public static void main(String[] args) {
+		Word w1 = new Word ("wrtszudiopert");
+		Word w2 = new Word ("opkdjlfij");
+		Word word [] = {w1,w2};
+		
+		Arrays.sort(args);
+	
+		 Comparator<Word> comp = new ComparatorByLength();
+	        Arrays.sort(word, comp.thenComparing(new ComparatorByLength()));
+	        
+	        for (int i = 0; i < word.length; i++) {
+	            System.out.println(word[i]);
+	        }
+		
+	        System.out.println("****************************************");
+	}
+
+	        public  static void temp(String str){
+	        
+	        
+	        }
+
+		
+	      
+
+	Countable c=(w1,w2)->{
+		if(w1>w2) {
+			return w1+w2;
+		}else {
+			return w1-w2;
+		}
+			};	//  toje samoe po drugomu
+	Countable c2 =(w1,w2)-> w1>w2 ? w1+w2:w1-w2;
+
+ 
+}

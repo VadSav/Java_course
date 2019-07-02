@@ -1,0 +1,28 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class MainLine {
+	
+	public static void main(String[] args) {
+		List<String> myList = Arrays.asList("hello"," asito"," finans"," durum"," angert"," butr"," aktur");
+				
+
+		myList.stream()
+		    .filter(s -> s.startsWith("a"))
+		    .map(String::toUpperCase)
+		    .sorted()
+		    .forEach(System.out::println);
+//		
+//		String s = new String ("Hello asito finans durum angert butr aktur");
+//		Stream<String> stringsStream = Stream.of(s); 
+//		
+//		stringsStream.collect(Collectors.groupingBy((p) -> p.substring(0, 1)));
+//        
+
+//		collection.stream().filter(«a1»::equals).count();
+//		
+//		stringsStream.filter(i->i=a).forEach(i->System.out.println(i++));
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Recursion {
+
+	public static void main(String[] args) {
+		
+		Factorial fact = new Factorial();
+		System.out.println("The factorial of 5 is equal to " + fact.fact(5));
+        System.out.println("The factorial of 10 is equal to " + fact.fact(10));
+        System.out.println("The factorial of 100 is equal to" + fact.fact(100));
+        System.out.println("The factorial of 1000 is equal to" + fact.fact(1000));
+ 
+	}
+
+}

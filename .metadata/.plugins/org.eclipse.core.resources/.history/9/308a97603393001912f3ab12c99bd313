@@ -1,0 +1,28 @@
+
+public class Word {
+	
+	public String length;
+
+	
+	public Word(String length) {
+		super();
+		this.length = length;
+	}
+
+
+	public String getLength() {
+		return length;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Word [length=" + length + "]";
+	}
+	
+	
+	
+	}
+	
+
+

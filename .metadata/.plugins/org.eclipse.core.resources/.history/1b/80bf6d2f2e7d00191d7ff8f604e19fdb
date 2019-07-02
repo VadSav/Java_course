@@ -1,0 +1,26 @@
+
+public class Transformer {
+
+
+	public static void main(String[]agrs) {
+		System.out.println(transform(input"aaa BCde eKL MnoP",new WordsTransformer()));
+	}
+	
+
+public  String transform (String input) {
+	String[]words= input.split(" ");
+		for (int i = 0; i < words.length; i++) {
+		if(words[i].length()==3) {
+			words[i]= words[i].toUpperCase();
+			   System.out.println("Result: " + result);
+	}
+	}
+	return String.join(" ",words);
+	   
+}
+}
+// s 4 loverCase
+// s 5***
+// sozdati class WordsTransformer
+// ToLowerCaseTransf
+//ToStars Transformer

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ArrayTools.java&apos; to &apos;2019_03_05_Person/src/telran.person.data&apos;&#x0D;&#x0A;- Original project: &apos;2019.03.01ArrayTools&apos;&#x0D;&#x0A;- Destination element: &apos;2019_03_05_Person/src/telran.person.data&apos;&#x0D;&#x0A;- Original element: &apos;ArrayTools.java&apos;" description="Copy compilation unit" destination="=2019_03_05_Person/src&lt;telran.person.data" element1="/src&lt;{ArrayTools.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1551814114578" units="1" version="1.0"/>
+</session>

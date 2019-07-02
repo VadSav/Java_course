@@ -1,0 +1,22 @@
+public class PizzaMozarella extends Pizza{
+	
+	  public static int count = 0;
+
+      public static void count(int count) {
+    	  PizzaMozarella  .count =  PizzaMozarella .count + count;
+      }
+
+	
+private static String TYPE = "Pizza Mozarella";
+
+public PizzaMozarella(){
+super(TYPE);
+}
+
+@Override
+public void prepare() {
+System.out.println("Preparing Pizza withn Mozarella,Cheese,Tomato");
+
+}
+}
+

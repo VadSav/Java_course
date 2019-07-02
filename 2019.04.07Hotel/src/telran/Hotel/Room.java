@@ -1,0 +1,47 @@
+package telran.Hotel;
+
+public class Room {
+
+
+
+
+    private String price;
+    private int number;
+    
+	
+    
+    public Room(String price, int number) {
+    
+    	this.price = price;
+    	this.number = number;
+        }
+
+        public String getPricer() {
+            return price;
+        }
+
+        public int getNumber() {
+            return number;
+        }
+
+        @Override
+        public String toString() {
+    	return "Room " + number;
+        }
+
+		public String getPrice() {
+			return price;
+		}
+
+		public void setPrice(String price) {
+			this.price = price;
+		}
+
+		public void setNumber(int number) {
+			this.number = number;
+		}
+          
+}
+        
+        
+

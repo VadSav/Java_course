@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String[] array1 = {"not"," in"," money"," happiness"};
+		String[] array2 = {"a"," good"," car"," is"," expensive"};
+		String[] array3 = {"i", "love", "sports"};
+
+		List<String[]> arrays = new ArrayList<>();
+		arrays.add(array1);
+		arrays.add(array2);
+		arrays.add(array3);
+
+		Comparator<String[]> sortByLength = new Comparator<String[]>() {
+		    @Override
+		    public int compare(String[] o1, String[] o2) {
+		        return o1.length - o2.length;
+		    }
+		};
+
+		arrays.sort(sortByLength);
+
+	}
+
+}

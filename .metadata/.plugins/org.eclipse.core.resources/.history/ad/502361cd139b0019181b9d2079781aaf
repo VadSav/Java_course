@@ -1,0 +1,21 @@
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class MainLine {
+	
+	public static void main(String[] args) {
+		
+		String s = new String ("Hello asito finans durum angert butr aktur");
+		Stream<String> stringsStream = Stream.of(s); 
+		
+		stringsStream.collect(Collectors.groupingBy((p) -> p.substring(0, 1)));
+        
+
+//		collection.stream().filter(«a1»::equals).count();
+//		
+//		stringsStream.filter(i->i=a).forEach(i->System.out.println(i++));
+
+System.out.println(s);
+	}
+
+}

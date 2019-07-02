@@ -1,0 +1,13 @@
+import java.util.Comparator;
+
+public class ComparatorByLength implements Comparator <Word>{ 
+	
+	
+
+@Override
+public int compare(Word arg0, Word arg1) {
+	
+	return ((Object) arg0.getSize).compareTo(arg1.getSize());
+}
+
+}

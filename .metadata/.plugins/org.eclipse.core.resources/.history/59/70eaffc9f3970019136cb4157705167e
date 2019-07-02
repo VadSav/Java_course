@@ -1,0 +1,37 @@
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class MainFilter {
+
+	public static void main(String[] args) {
+		
+		Address a1= new Address("Kosmonavtov",25);
+		Address a2= new Address("Stroitelei",40);
+		Address a3= new Address("Komsomolskaya",71);
+		Address a4= new Address("Lenina",19);
+		
+		Person p1=new Person("Leo",23,a1);
+		Person p2=new Person("Moisha",40,a2);
+		Person p3=new Person("Kuzma",16,a1);
+		Person p4=new Person("Nikolay",15,a1);
+		Person [] p= {p1,p2,p3,p4};
+		System.out.println( p);
+	
+	}
+}
+
+	      
+
+	    
+
+	
+
+

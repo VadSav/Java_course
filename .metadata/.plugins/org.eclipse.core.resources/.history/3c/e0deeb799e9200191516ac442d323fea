@@ -1,0 +1,10 @@
+
+@FunctionalInterface
+public interface Countable {
+	
+	String  count(String s1,String s2);
+	
+	
+	
+
+}

@@ -1,0 +1,29 @@
+
+public class WordsTrans {
+
+	public static void main(String[]agrs) {
+		String Str = new String("aaa BCde eKL MnoP");
+
+	      System.out.print("Returned value: ");
+	      System.out.println(Str.toLowerCase());
+	      
+	      System.out.print("Returned value: ");
+	      System.out.println(Str.toLowerCase(Locale.*));
+	   }
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// s 4 loverCase
+	// s 5***
+	
+	// ToLowerCaseTrans
+	//ToStars Transformer
+}

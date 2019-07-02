@@ -1,0 +1,15 @@
+import java.util.stream.Stream;
+
+public class MainLine {
+	
+	public static void main(String[] args) {
+		
+		String s = new String ("Hello asito finans durum angert butr aktur");
+
+		//		
+//		Stream.filter(i=.getAge()>17).forEach(i->System.out.println(i.getAddress()));
+
+System.out.println(s);
+	}
+
+}

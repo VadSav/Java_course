@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;superBoss&apos; to &apos;SuperBoss&apos;&#x0D;&#x0A;- Original project: &apos;2019.06.08AddressMap&apos;&#x0D;&#x0A;- Original element: &apos;superBoss&apos;&#x0D;&#x0A;- Renamed element: &apos;SuperBoss&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;superBoss&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{superBoss.java[superBoss" matchStrategy="1" name="SuperBoss" qualified="false" references="true" similarDeclarations="false" stamp="1560099910066" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,30 @@
+
+public class WordsTrans {
+
+	public static void main(String[]agrs) {
+		//String Str = new String("aaa BCde eKL MnoP");
+		char ch = 'aaa';
+		int pos = ch - 'aaa' + 1;
+	      System.out.print("*: ");
+	     System.out.println(Str.toLowerCase());
+	      
+	  
+	   }
+
+}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	// s 4 loverCase
+	// s 5***
+	
+	// ToLowerCaseTrans
+	//ToStars Transformer
+
